@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/xst"
+elaborate
+-ifn MemoryTest.prj
+-ifmt mixed

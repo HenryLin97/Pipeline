@@ -1,0 +1,65 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "D:/zzh_lyh_xcy/CPU/test7_isim_beh.exe" -prj "D:/zzh_lyh_xcy/CPU/test7_beh.prj" "work.test7" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/WBMUX.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/registers.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/PCMUX.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/PCAdder.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/PC.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/NewMemoryTest.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/MEMWBRegister.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/IMME.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/IFIDRegister.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/ID_MuxC.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/ID_MuxB.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/ID_MuxA.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/ID_Adder.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/IDEXRegister.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/HazardDetection.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/Forward_Unit.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/EX_MuxB.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/EX_MuxA.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/EXMEMRegister.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/control.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/CLK_Unit.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/ALU.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/CPU.vhd" into library work
+Parsing VHDL file "D:/zzh_lyh_xcy/CPU/test7.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity PCAdder [pcadder_default]
+Compiling architecture behavioral of entity IFIDRegister [ifidregister_default]
+Compiling architecture behavioral of entity PCMUX [pcmux_default]
+Compiling architecture behavioral of entity ID_MuxA [id_muxa_default]
+Compiling architecture behavioral of entity ID_MuxB [id_muxb_default]
+Compiling architecture behavioral of entity ID_MuxC [id_muxc_default]
+Compiling architecture behavioral of entity IMME [imme_default]
+Compiling architecture behavioral of entity registers [registers_default]
+Compiling architecture behavioral of entity ID_Adder [id_adder_default]
+Compiling architecture behavioral of entity IDEXRegister [idexregister_default]
+Compiling architecture behavioral of entity EX_MuxA [ex_muxa_default]
+Compiling architecture behavioral of entity EX_MuxB [ex_muxb_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity EXMEMRegister [exmemregister_default]
+Compiling architecture behavioral of entity NewMemoryTest [newmemorytest_default]
+Compiling architecture behavioral of entity MEMWBRegister [memwbregister_default]
+Compiling architecture behavioral of entity WBMUX [wbmux_default]
+Compiling architecture behavioral of entity Control [control_default]
+Compiling architecture behavioral of entity HazardDetection [hazarddetection_default]
+Compiling architecture behavioral of entity Forward_Unit [forward_unit_default]
+Compiling architecture behavioral of entity CLK_Unit [clk_unit_default]
+Compiling architecture behavioral of entity cpu [cpu_default]
+Compiling architecture behavior of entity test7
+Time Resolution for simulation is 1ps.
+Waiting for 14 sub-compilation(s) to finish...
+Compiled 51 VHDL Units
+Built simulation executable D:/zzh_lyh_xcy/CPU/test7_isim_beh.exe
+Fuse Memory Usage: 36864 KB
+Fuse CPU Usage: 1499 ms

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/zzh_lyh_xcy/CPU/test7_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test7" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="54" />
+   <wvobject fp_name="/test7/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/clk_hand" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_hand</obj_property>
+      <obj_property name="ObjectShortName">clk_hand</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/clk_50" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_50</obj_property>
+      <obj_property name="ObjectShortName">clk_50</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/dataready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dataready</obj_property>
+      <obj_property name="ObjectShortName">dataready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/tbre" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tbre</obj_property>
+      <obj_property name="ObjectShortName">tbre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/tsre" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tsre</obj_property>
+      <obj_property name="ObjectShortName">tsre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/rdn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rdn</obj_property>
+      <obj_property name="ObjectShortName">rdn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/wrn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wrn</obj_property>
+      <obj_property name="ObjectShortName">wrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram1data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram1data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram1data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram2data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram2data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram1en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram1en</obj_property>
+      <obj_property name="ObjectShortName">ram1en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram1we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram1we</obj_property>
+      <obj_property name="ObjectShortName">ram1we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram1oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram1oe</obj_property>
+      <obj_property name="ObjectShortName">ram1oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram1addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram1addr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">ram1addr[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram2en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram2en</obj_property>
+      <obj_property name="ObjectShortName">ram2en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram2we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram2we</obj_property>
+      <obj_property name="ObjectShortName">ram2we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram2oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram2oe</obj_property>
+      <obj_property name="ObjectShortName">ram2oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/ram2addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram2addr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">ram2addr[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/digit1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">digit1[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/digit2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">digit2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">digit2[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/clk_hand_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_hand_period</obj_property>
+      <obj_property name="ObjectShortName">clk_hand_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/clk_50_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_50_period</obj_property>
+      <obj_property name="ObjectShortName">clk_50_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/dmin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dmin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/dmaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dmaddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/dmcontrol" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmcontrol[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dmcontrol[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/imaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imaddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/keep_im" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">keep_im</obj_property>
+      <obj_property name="ObjectShortName">keep_im</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u9/r0out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r0out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r0out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u9/r1out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r1out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r1out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u9/r2out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r2out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r2out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u9/r6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r6[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u3/im_command_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">im_command_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">im_command_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u11/ex_command_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_command_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_command_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u15/mem_command_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_command_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_command_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u17/wb_command_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_command_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_command_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u1/pcout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pcout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u20/im_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">im_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">im_state[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/req_stall_im" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req_stall_im</obj_property>
+      <obj_property name="ObjectShortName">req_stall_im</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/req_stall_dm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req_stall_dm</obj_property>
+      <obj_property name="ObjectShortName">req_stall_dm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u21/forward_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">forward_a[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_a[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u14/alu_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u15/mem_alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_alu_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_alu_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u20/skip_mem_bubble_back" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">skip_mem_bubble_back</obj_property>
+      <obj_property name="ObjectShortName">skip_mem_bubble_back</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u20/skip_mem_bubble" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">skip_mem_bubble</obj_property>
+      <obj_property name="ObjectShortName">skip_mem_bubble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/dmcontrol" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmcontrol[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dmcontrol[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u11/flushsignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">flushsignal</obj_property>
+      <obj_property name="ObjectShortName">flushsignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u11/keepsignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">keepsignal</obj_property>
+      <obj_property name="ObjectShortName">keepsignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/dmcontrol" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmcontrol[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dmcontrol[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u21/forward_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">forward_a[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_a[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u21/forward_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">forward_b[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_b[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u11/id_muxa_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">id_muxa_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">id_muxa_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u11/id_muxb_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">id_muxb_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">id_muxb_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test7/uut/u16/imout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imout[15:0]</obj_property>
+   </wvobject>
+</wave_config>

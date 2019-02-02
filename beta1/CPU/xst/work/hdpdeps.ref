@@ -1,0 +1,175 @@
+V3 124
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/ALU.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/CLK_Unit.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/control.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/CPU.vhd 2018/12/04.06:10:55 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/EXMEMRegister.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/EX_MuxA.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/EX_MuxB.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/Forward_Unit.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/HazardDetection.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/IDEXRegister.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/ID_Adder.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/ID_MuxA.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/ID_MuxB.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/ID_MuxC.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/IFIDRegister.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/IMME.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/MemoryTest.vhd 2018/12/01.16:00:25 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/MemoryUnit.vhd 2018/12/04.06:30:55 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/MEMWBRegister.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/PC.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/PCAdder.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/PCMUX.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/registers.vhd 2018/12/04.01:48:41 P.20131013
+FL C:/Users/zzhao/Desktop/CPU/zzh_lyh_xcy/CPU/WBMUX.vhd 2018/12/04.01:48:41 P.20131013
+FL D:/zzh_lyh_xcy/CPU/ALU.vhd 2018/12/04.18:07:05 P.20131013
+EN work/ALU 1544093421 FL D:/zzh_lyh_xcy/CPU/ALU.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/std_logic_arith 1381692177
+AR work/ALU/Behavioral 1544093422 \
+      FL D:/zzh_lyh_xcy/CPU/ALU.vhd EN work/ALU 1544093421
+FL D:/zzh_lyh_xcy/CPU/CLK_Unit.vhd 2018/12/04.18:07:05 P.20131013
+EN work/CLK_Unit 1544093437 FL D:/zzh_lyh_xcy/CPU/CLK_Unit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CLK_Unit/Behavioral 1544093438 \
+      FL D:/zzh_lyh_xcy/CPU/CLK_Unit.vhd EN work/CLK_Unit 1544093437
+FL D:/zzh_lyh_xcy/CPU/control.vhd 2018/12/04.18:07:06 P.20131013
+EN work/Control 1544093431 FL D:/zzh_lyh_xcy/CPU/control.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Control/Behavioral 1544093432 \
+      FL D:/zzh_lyh_xcy/CPU/control.vhd EN work/Control 1544093431
+FL D:/zzh_lyh_xcy/CPU/CPU.vhd 2018/12/06.18:49:48 P.20131013
+EN work/cpu 1544093439 FL D:/zzh_lyh_xcy/CPU/CPU.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/cpu/Behavioral 1544093440 \
+      FL D:/zzh_lyh_xcy/CPU/CPU.vhd EN work/cpu 1544093439 CP PC CP PCAdder \
+      CP IFIDRegister CP PCMUX CP ID_MuxA CP ID_MuxB CP ID_MuxC CP IMME CP registers \
+      CP ID_Adder CP IDEXRegister CP EX_MuxA CP EX_MuxB CP ALU CP EXMEMRegister \
+      CP MemoryUnit CP MEMWBRegister CP WBMUX CP Control CP HazardDetection \
+      CP Forward_Unit CP CLK_Unit
+FL D:/zzh_lyh_xcy/CPU/EXMEMRegister.vhd 2018/12/05.14:11:24 P.20131013
+EN work/EXMEMRegister 1544093423 FL D:/zzh_lyh_xcy/CPU/EXMEMRegister.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/EXMEMRegister/Behavioral 1544093424 \
+      FL D:/zzh_lyh_xcy/CPU/EXMEMRegister.vhd EN work/EXMEMRegister 1544093423
+FL D:/zzh_lyh_xcy/CPU/EX_MuxA.vhd 2018/12/06.17:21:03 P.20131013
+EN work/EX_MuxA 1544093417 FL D:/zzh_lyh_xcy/CPU/EX_MuxA.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/EX_MuxA/Behavioral 1544093418 \
+      FL D:/zzh_lyh_xcy/CPU/EX_MuxA.vhd EN work/EX_MuxA 1544093417
+FL D:/zzh_lyh_xcy/CPU/EX_MuxB.vhd 2018/12/04.18:07:05 P.20131013
+EN work/EX_MuxB 1544093419 FL D:/zzh_lyh_xcy/CPU/EX_MuxB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/EX_MuxB/Behavioral 1544093420 \
+      FL D:/zzh_lyh_xcy/CPU/EX_MuxB.vhd EN work/EX_MuxB 1544093419
+FL D:/zzh_lyh_xcy/CPU/Forward_Unit.vhd 2018/12/05.11:40:30 P.20131013
+EN work/Forward_Unit 1544093435 FL D:/zzh_lyh_xcy/CPU/Forward_Unit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Forward_Unit/Behavioral 1544093436 \
+      FL D:/zzh_lyh_xcy/CPU/Forward_Unit.vhd EN work/Forward_Unit 1544093435
+FL D:/zzh_lyh_xcy/CPU/HazardDetection.vhd 2018/12/05.21:22:20 P.20131013
+EN work/HazardDetection 1544093433 FL D:/zzh_lyh_xcy/CPU/HazardDetection.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/HazardDetection/Behavioral 1544093434 \
+      FL D:/zzh_lyh_xcy/CPU/HazardDetection.vhd EN work/HazardDetection 1544093433
+FL D:/zzh_lyh_xcy/CPU/IDEXRegister.vhd 2018/12/05.14:11:10 P.20131013
+EN work/IDEXRegister 1544093415 FL D:/zzh_lyh_xcy/CPU/IDEXRegister.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/IDEXRegister/Behavioral 1544093416 \
+      FL D:/zzh_lyh_xcy/CPU/IDEXRegister.vhd EN work/IDEXRegister 1544093415
+FL D:/zzh_lyh_xcy/CPU/ID_Adder.vhd 2018/12/04.18:07:05 P.20131013
+EN work/ID_Adder 1544093413 FL D:/zzh_lyh_xcy/CPU/ID_Adder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ID_Adder/Behavioral 1544093414 \
+      FL D:/zzh_lyh_xcy/CPU/ID_Adder.vhd EN work/ID_Adder 1544093413
+FL D:/zzh_lyh_xcy/CPU/ID_MuxA.vhd 2018/12/04.18:07:05 P.20131013
+EN work/ID_MuxA 1544093403 FL D:/zzh_lyh_xcy/CPU/ID_MuxA.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ID_MuxA/Behavioral 1544093404 \
+      FL D:/zzh_lyh_xcy/CPU/ID_MuxA.vhd EN work/ID_MuxA 1544093403
+FL D:/zzh_lyh_xcy/CPU/ID_MuxB.vhd 2018/12/04.18:07:05 P.20131013
+EN work/ID_MuxB 1544093405 FL D:/zzh_lyh_xcy/CPU/ID_MuxB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ID_MuxB/Behavioral 1544093406 \
+      FL D:/zzh_lyh_xcy/CPU/ID_MuxB.vhd EN work/ID_MuxB 1544093405
+FL D:/zzh_lyh_xcy/CPU/ID_MuxC.vhd 2018/12/04.18:07:05 P.20131013
+EN work/ID_MuxC 1544093407 FL D:/zzh_lyh_xcy/CPU/ID_MuxC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ID_MuxC/Behavioral 1544093408 \
+      FL D:/zzh_lyh_xcy/CPU/ID_MuxC.vhd EN work/ID_MuxC 1544093407
+FL D:/zzh_lyh_xcy/CPU/IFIDRegister.vhd 2018/12/05.14:10:54 P.20131013
+EN work/IFIDRegister 1544093399 FL D:/zzh_lyh_xcy/CPU/IFIDRegister.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/IFIDRegister/Behavioral 1544093400 \
+      FL D:/zzh_lyh_xcy/CPU/IFIDRegister.vhd EN work/IFIDRegister 1544093399
+FL D:/zzh_lyh_xcy/CPU/IMME.vhd 2018/12/04.18:07:05 P.20131013
+EN work/IMME 1544093409 FL D:/zzh_lyh_xcy/CPU/IMME.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/IMME/Behavioral 1544093410 \
+      FL D:/zzh_lyh_xcy/CPU/IMME.vhd EN work/IMME 1544093409
+FL D:/zzh_lyh_xcy/CPU/MemoryTest.vhd 2018/12/03.00:43:47 P.20131013
+EN work/MemoryTest 1543837046 FL D:/zzh_lyh_xcy/CPU/MemoryTest.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/MemoryTest/Behavioral 1543837047 \
+      FL D:/zzh_lyh_xcy/CPU/MemoryTest.vhd EN work/MemoryTest 1543837046
+FL D:/zzh_lyh_xcy/CPU/MemoryUnit.vhd 2018/12/06.17:35:17 P.20131013
+EN work/MemoryUnit 1544093425 FL D:/zzh_lyh_xcy/CPU/MemoryUnit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/MemoryUnit/Behavioral 1544093426 \
+      FL D:/zzh_lyh_xcy/CPU/MemoryUnit.vhd EN work/MemoryUnit 1544093425
+FL D:/zzh_lyh_xcy/CPU/MEMWBRegister.vhd 2018/12/05.14:12:05 P.20131013
+EN work/MEMWBRegister 1544093427 FL D:/zzh_lyh_xcy/CPU/MEMWBRegister.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/MEMWBRegister/Behavioral 1544093428 \
+      FL D:/zzh_lyh_xcy/CPU/MEMWBRegister.vhd EN work/MEMWBRegister 1544093427
+FL D:/zzh_lyh_xcy/CPU/NewMemoryTest.vhd 2018/12/05.22:18:15 P.20131013
+EN work/NewMemoryTest 1544019531 FL D:/zzh_lyh_xcy/CPU/NewMemoryTest.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/NewMemoryTest/Behavioral 1544019532 \
+      FL D:/zzh_lyh_xcy/CPU/NewMemoryTest.vhd EN work/NewMemoryTest 1544019531
+FL D:/zzh_lyh_xcy/CPU/PC.vhd 2018/12/05.14:10:40 P.20131013
+EN work/PC 1544093395 FL D:/zzh_lyh_xcy/CPU/PC.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/PC/Behavioral 1544093396 \
+      FL D:/zzh_lyh_xcy/CPU/PC.vhd EN work/PC 1544093395
+FL D:/zzh_lyh_xcy/CPU/PCAdder.vhd 2018/12/04.18:07:06 P.20131013
+EN work/PCAdder 1544093397 FL D:/zzh_lyh_xcy/CPU/PCAdder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/PCAdder/Behavioral 1544093398 \
+      FL D:/zzh_lyh_xcy/CPU/PCAdder.vhd EN work/PCAdder 1544093397
+FL D:/zzh_lyh_xcy/CPU/PCMUX.vhd 2018/12/04.18:07:06 P.20131013
+EN work/PCMUX 1544093401 FL D:/zzh_lyh_xcy/CPU/PCMUX.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/PCMUX/Behavioral 1544093402 \
+      FL D:/zzh_lyh_xcy/CPU/PCMUX.vhd EN work/PCMUX 1544093401
+FL D:/zzh_lyh_xcy/CPU/registers.vhd 2018/12/05.14:10:00 P.20131013
+EN work/registers 1544093411 FL D:/zzh_lyh_xcy/CPU/registers.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/registers/Behavioral 1544093412 \
+      FL D:/zzh_lyh_xcy/CPU/registers.vhd EN work/registers 1544093411
+FL D:/zzh_lyh_xcy/CPU/slow_MemoryUnit.vhd 2018/12/03.19:43:31 P.20131013
+EN work/slow_MemoryUnit 1543837463 FL D:/zzh_lyh_xcy/CPU/slow_MemoryUnit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/slow_MemoryUnit/Behavioral 1543837464 \
+      FL D:/zzh_lyh_xcy/CPU/slow_MemoryUnit.vhd EN work/slow_MemoryUnit 1543837463
+FL D:/zzh_lyh_xcy/CPU/WBMUX.vhd 2018/12/04.18:07:06 P.20131013
+EN work/WBMUX 1544093429 FL D:/zzh_lyh_xcy/CPU/WBMUX.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/WBMUX/Behavioral 1544093430 \
+      FL D:/zzh_lyh_xcy/CPU/WBMUX.vhd EN work/WBMUX 1544093429

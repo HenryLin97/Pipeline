@@ -1,0 +1,290 @@
+--R1 fruitnum
+--R2 snaketail
+--R3 snakehead
+
+--frame
+LI R4 0x80				--起始地址0x8000
+SLL R4 R4 0				--R4=8000
+LI R5 0x8B
+SLL R5 R5 0
+ADDIU R5 0x64			--R5存入了max地址
+background:
+	LI R0 1				--颜色
+	SW R4 R0 0			--R4中写入1
+	ADDIU R4 1
+CMP R5 R4
+BNEZ T FC				--循环
+NOP
+
+--fruit
+LI R0 0x80
+SLL R0 R0 0				--R0=0x8000
+
+LI R4 0x91
+SLL R4 R4 0				--R4=9100
+LI R5 0x09
+SLL R5 R5 0
+ADDIU R5 0xD1
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9101
+LI R5 0x03
+SLL R5 R5 0
+ADDIU R5 0x3D
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9102
+LI R5 0x07
+SLL R5 R5 0
+ADDIU R5 0x1F
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9103
+LI R5 0x40
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9104
+LI R5 0x06
+SLL R5 R5 0
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9105
+LI R5 0x0B
+SLL R5 R5 0
+ADDIU R5 0x12
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9106
+LI R5 0x7B
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9107
+LI R5 0x07
+SLL R5 R5 0
+ADDIU R5 0x65
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9108
+LI R5 0x08
+SLL R5 R5 0
+ADDIU R5 0xD8
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9109
+LI R5 0x04
+SLL R5 R5 0
+ADDIU R5 0xD4
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9110
+LI R5 0x9C
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9111
+LI R5 0x07
+SLL R5 R5 0
+ADDIU R5 0xA5
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+
+--snake
+LI R4 0x92
+SLL R4 R4 0				--R4=9200
+LI R5 0x05
+SLL R5 R5 0
+ADDIU R5 0xCB
+ADDU R5 R0 R5
+SW R4 R5 0				--R5写进R4
+ADDIU R4 1				--R4=9201
+ADDIU R5 1
+SW R4 R5 0
+ADDIU R4 1				--R4=9202
+ADDIU R5 1				--R5=1485+0x8000
+SW R4 R5 0
+
+LI R0 2					--蛇身颜色
+SW R5 R0 0
+LI R0 1
+SUBU R5 R0 R5			--R5为蛇身地址
+LI R0 2					--蛇身颜色
+SW R5 R0 0
+LI R0 1
+SUBU R5 R0 R5			--R5为蛇尾地址
+LI R0 2					--蛇身颜色
+SW R5 R0 0
+LI R2 0x00				--snaketail=0
+LI R3 0x02				--snakehead=2
+LI R1 0x00				--fruitnum=0
+
+LI R4 0x91		
+SLL R4 R4 0
+LW R4 R5 0
+LI R0 3				--果实颜色
+SW R5 R0 0			--R5中写入3
+
+B start
+NOP
+NOP
+
+success:
+	--success
+
+die:
+	--die
+
+fruit:
+	ADDIU R1 1			--fruitnum++
+	LI R4 0x91		
+	SLL R4 R4 0
+	ADDU R4 R1 R4		--R4中存着下一个果实的地址
+	LW R4 R5 0
+	LI R0 3				--果实颜色
+	SW R5 R0 0			--R5中写入3
+	LI R0 0x0C
+	CMP R0 R1
+	BEQZ T success			--to success
+	JR R7
+	NOP
+
+snaketail:
+	LI R4 0x92
+	SLL R4 R4 0
+	ADDU R4 R2 R4		--R4中存着蛇尾地址
+	LW R4 R5 0
+	LI R0 1				--背景颜色
+	SW R5 R0 0			--R5中写入1
+	ADDIU R2 1			--snaketail++
+	JR R7
+	NOP
+
+up:
+	LI R4 0x80
+	SLL R4 R4 0
+	ADDIU R4 0x36
+	SLTU R5 R4
+	LI R0 1
+	SUBU T R0 R0
+	BNEZ R0 die
+	NOP
+	LI R0 0x36
+	SUBU R5 R0 R5
+	LW R0 R5 0			--R0为蛇头所在位置的颜色
+	LI R4 0x02
+	SUBU R0 R4 R0
+	BNEZ R0 die
+	NOP
+	JR R7
+	NOP
+
+left:
+	LI R4 0x80
+	SLL R4 R4 0
+	CMP R5 R4
+	BNEZ T die
+	NOP
+	LI R0 0x01
+	SUBU R5 R0 R5
+	LW R0 R5 0			--R0为蛇头所在位置的颜色
+	LI R4 0x02
+	SUBU R0 R4 R0
+	BNEZ R0 die
+	NOP
+	JR R7
+	NOP
+	
+down:
+	LI R4 0x8B
+	SLL R4 R4 0
+	ADDIU R4 0x2e
+	SLTU R5 R4
+	BNEZ T die
+	NOP
+	LI R0 0x36
+	ADDU R5 R0 R5
+	LW R0 R5 0			--R0为蛇头所在位置的颜色
+	LI R4 0x02
+	SUBU R0 R4 R0
+	BNEZ R0 die
+	NOP
+	JR R7
+	NOP
+
+right:
+	LI R4 0x8B
+	SLL R4 R4 0
+	ADDIU R4 0x63
+	CMP R5 R4
+	BNEZ T die
+	NOP
+	LI R0 0x01
+	ADDU R5 R0 R5
+	LW R0 R5 0			--R0为蛇头所在位置的颜色
+	LI R4 0x02
+	SUBU R0 R4 R0
+	BNEZ R0 die
+	NOP
+	JR R7
+	NOP
+
+start:
+	LI R4 0x92
+	SLL R4 R4 0
+	ADDU R4 R3 R4		--R4中存着蛇头地址
+	LW R4 R5 0			--R5为蛇头地址
+	LI R4 0x93
+	SLL R4 R4 0			--R4中存着下一步的方向，0w1a2s3d
+	LW R4 R0 0			--R0存着0/1/2/3
+	MFPC R7
+	ADDIU R7 0x14
+	BEQZ R0 up
+	NOP
+	LI R4 0x01
+	SUBU R0 R4 R0
+	MFPC R7
+	ADDIU R7 0x0E
+	BEQZ R0 left
+	NOP
+	LI R4 0x01
+	SUBU R0 R4 R0
+	MFPC R7
+	ADDIU R7 0x08
+	BEQZ R0 down
+	NOP
+	LI R4 0x01
+	SUBU R0 R4 R0
+	MFPC R7
+	ADDIU R7 0x02
+	BEQZ R0 right
+	NOP
+
+	LI R4 0x91
+	SLL R4 R4 0
+	ADDU R4 R1 R4
+	LW R4 R4 0		--R4中存着当前果实位置
+	CMP R4 R5
+	MFPC R7
+	ADDIU R7 0x06
+	BEQZ T fruit
+	NOP
+	MFPC R7
+	ADDIU R7 0x02
+	BEQZ R0 snaketail
+	NOP
+	LI R0 2
+	SW R5 R0 0
+	ADDIU R3 0x01
+	LI R4 0x92
+	SLL R4 R4 0
+	ADDU R4 R3 R4
+	SW R4 R5 0
+	B start
+	NOP
+	
+	
+
+
+
+
+	
+
+
+

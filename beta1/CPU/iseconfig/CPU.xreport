@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report-views version="2.0" >
+ <header>
+  <ImplementationReportsDirectory>D:/zzh_lyh_xcy/CPU\</ImplementationReportsDirectory>
+  <ModuleName>cpu</ModuleName>
+  <DateModified>2018-12-05T21:54:20</DateModified>
+  <SavedFilePath>D:/zzh_lyh_xcy/CPU/iseconfig/cpu.xreport</SavedFilePath>
+  <DateInitialized>2018-11-24T23:09:36</DateInitialized>
+  <EnableMessageFiltering>false</EnableMessageFiltering>
+  <SummaryTimeStamp>2018-12-05T21:54:14</SummaryTimeStamp>
+ </header>
+</report-views>
